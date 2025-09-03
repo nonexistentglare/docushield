@@ -1,0 +1,26 @@
+{
+  "input": "E:\\Docushield\\samples\\sample9.jpeg",
+  "output": "E:\\Docushield\\out\\sample9_redacted.jpeg",
+  "type": "image",
+  "detections": [
+    {
+      "label": "AADHAAR",
+      "text": "‘vip 7722 913965845224 6355 3274 1706",
+      "conf": 92.0,
+      "bbox": [
+        151,
+        626,
+        268,
+        658
+      ]
+    }
+  ],
+  "qr_redacted": 0,
+  "fields_redacted": [
+    "AADHAAR",
+    "PAN",
+    "PHONE",
+    "EMAIL",
+    "DATE"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "input": "E:\\Docushield\\samples\\sample.jpeg",
+  "output": "E:\\Docushield\\out\\sample_redacted.jpeg",
+  "type": "image",
+  "detections": [
+    {
+      "label": "DATE",
+      "text": "31/12/2003",
+      "conf": 96.0,
+      "bbox": [
+        375,
+        177,
+        472,
+        195
+      ]
+    },
+    {
+      "label": "DATE",
+      "text": "s ‘FH fARY/DOB: 31/12/2003",
+      "conf": 96.0,
+      "bbox": [
+        26,
+        175,
+        472,
+        199
+      ]
+    },
+    {
+      "label": "AADHAAR",
+      "text": "5865 9424 6303",
+      "conf": 96.0,
+      "bbox": [
+        242,
+        387,
+        499,
+        438
+      ]
+    }
+  ],
+  "qr_redacted": 0,
+  "fields_redacted": [
+    "AADHAAR",
+    "PAN",
+    "PHONE",
+    "EMAIL",
+    "DATE"
+  ]
+}

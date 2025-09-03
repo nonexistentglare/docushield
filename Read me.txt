@@ -1,0 +1,4 @@
+1) Install Python 3.9+ and Tesseract OCR
+2) Unzip DocuShield
+3) Double-click run.bat
+4) Check "out" folder for redacted results

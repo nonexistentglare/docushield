@@ -1,0 +1,37 @@
+{
+  "input": "E:\\Docushield\\samples\\sample5.jpeg",
+  "output": "E:\\Docushield\\out\\sample5_redacted.jpeg",
+  "type": "image",
+  "detections": [
+    {
+      "label": "PAN",
+      "text": "SRNPS6912R",
+      "conf": 90.0,
+      "bbox": [
+        305,
+        154,
+        420,
+        168
+      ]
+    },
+    {
+      "label": "PAN",
+      "text": "SRNPS6912R",
+      "conf": 90.0,
+      "bbox": [
+        305,
+        154,
+        420,
+        168
+      ]
+    }
+  ],
+  "qr_redacted": 0,
+  "fields_redacted": [
+    "AADHAAR",
+    "PAN",
+    "PHONE",
+    "EMAIL",
+    "DATE"
+  ]
+}

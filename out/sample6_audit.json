@@ -1,0 +1,37 @@
+{
+  "input": "E:\\Docushield\\samples\\sample6.jpeg",
+  "output": "E:\\Docushield\\out\\sample6_redacted.jpeg",
+  "type": "image",
+  "detections": [
+    {
+      "label": "PAN",
+      "text": "KHCPS9936N",
+      "conf": 90.0,
+      "bbox": [
+        310,
+        316,
+        425,
+        330
+      ]
+    },
+    {
+      "label": "PAN",
+      "text": "KHCPS9936N",
+      "conf": 90.0,
+      "bbox": [
+        310,
+        316,
+        425,
+        330
+      ]
+    }
+  ],
+  "qr_redacted": 1,
+  "fields_redacted": [
+    "AADHAAR",
+    "PAN",
+    "PHONE",
+    "EMAIL",
+    "DATE"
+  ]
+}

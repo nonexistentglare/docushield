@@ -1,0 +1,14 @@
+{
+  "input": "E:\\Docushield\\samples\\sample10.jpeg",
+  "output": "E:\\Docushield\\out\\sample10_redacted.jpeg",
+  "type": "image",
+  "detections": [],
+  "qr_redacted": 0,
+  "fields_redacted": [
+    "AADHAAR",
+    "PAN",
+    "PHONE",
+    "EMAIL",
+    "DATE"
+  ]
+}

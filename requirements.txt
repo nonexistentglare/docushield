@@ -1,0 +1,10 @@
+opencv-python-headless>=4.8
+pillow>=10.0
+pytesseract>=0.3.10
+PyMuPDF>=1.24.0
+numpy>=1.24
+pdfminer.six>=20220524
+pyzbar>=0.1.9
+click>=8.1
+rich>=13.7
+streamlit>=1.36

@@ -1,0 +1,26 @@
+{
+  "input": "E:\\Docushield\\samples\\sample 3.jpeg",
+  "output": "E:\\Docushield\\out\\sample 3_redacted.jpeg",
+  "type": "image",
+  "detections": [
+    {
+      "label": "AADHAAR",
+      "text": "8396 9639 3224 8306 9639 3224",
+      "conf": 91.0,
+      "bbox": [
+        81,
+        168,
+        387,
+        176
+      ]
+    }
+  ],
+  "qr_redacted": 0,
+  "fields_redacted": [
+    "AADHAAR",
+    "PAN",
+    "PHONE",
+    "EMAIL",
+    "DATE"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "input": "E:\\Docushield\\samples\\sample2.jpeg",
+  "output": "E:\\Docushield\\out\\sample2_redacted.jpeg",
+  "type": "image",
+  "detections": [
+    {
+      "label": "DATE",
+      "text": "10/10/1998",
+      "conf": 96.0,
+      "bbox": [
+        455,
+        182,
+        608,
+        205
+      ]
+    },
+    {
+      "label": "DATE",
+      "text": "/ DOB: 10/10/1998",
+      "conf": 96.0,
+      "bbox": [
+        364,
+        182,
+        608,
+        205
+      ]
+    }
+  ],
+  "qr_redacted": 1,
+  "fields_redacted": [
+    "AADHAAR",
+    "PAN",
+    "PHONE",
+    "EMAIL",
+    "DATE"
+  ]
+}

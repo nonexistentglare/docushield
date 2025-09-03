@@ -1,0 +1,48 @@
+{
+  "input": "E:\\Docushield\\samples\\sample8.jpeg",
+  "output": "E:\\Docushield\\out\\sample8_redacted.jpeg",
+  "type": "image",
+  "detections": [
+    {
+      "label": "PHONE",
+      "text": "8135958057",
+      "conf": 92.0,
+      "bbox": [
+        267,
+        898,
+        347,
+        910
+      ]
+    },
+    {
+      "label": "PHONE",
+      "text": "Contact Number : 9387381775 (Self)",
+      "conf": 96.0,
+      "bbox": [
+        77,
+        881,
+        385,
+        896
+      ]
+    },
+    {
+      "label": "PHONE",
+      "text": "8135958057 (Emergency)",
+      "conf": 96.0,
+      "bbox": [
+        267,
+        898,
+        431,
+        913
+      ]
+    }
+  ],
+  "qr_redacted": 0,
+  "fields_redacted": [
+    "AADHAAR",
+    "PAN",
+    "PHONE",
+    "EMAIL",
+    "DATE"
+  ]
+}

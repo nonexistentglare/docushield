@@ -1,0 +1,59 @@
+{
+  "input": "E:\\Docushield\\samples\\sample7.jpeg",
+  "output": "E:\\Docushield\\out\\sample7_redacted.jpeg",
+  "type": "image",
+  "detections": [
+    {
+      "label": "DATE",
+      "text": "29-06-2022",
+      "conf": 70.0,
+      "bbox": [
+        405,
+        126,
+        505,
+        142
+      ]
+    },
+    {
+      "label": "DATE",
+      "text": "28-06-2037",
+      "conf": 92.0,
+      "bbox": [
+        558,
+        125,
+        657,
+        140
+      ]
+    },
+    {
+      "label": "DATE",
+      "text": "PBO6BC2707 29-06-2022",
+      "conf": 88.0,
+      "bbox": [
+        247,
+        126,
+        505,
+        143
+      ]
+    },
+    {
+      "label": "DATE",
+      "text": "28-06-2037",
+      "conf": 92.0,
+      "bbox": [
+        558,
+        125,
+        657,
+        140
+      ]
+    }
+  ],
+  "qr_redacted": 0,
+  "fields_redacted": [
+    "AADHAAR",
+    "PAN",
+    "PHONE",
+    "EMAIL",
+    "DATE"
+  ]
+}
